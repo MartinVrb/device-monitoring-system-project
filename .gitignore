@@ -1,0 +1,48 @@
+# Виртуални среди
+venv/
+.env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+
+# Бази данни (локални)
+db.sqlite3
+
+# Django cache / static
+staticfiles/
+media/
+*.sqlite3
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Migrations cache (оставяме самите миграции!)
+*.pot
+*.mo
+
+# Coverage / тестови артефакти
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Node (ако добавим React във frontend папка)
+node_modules/
+build/
+dist/
+
+documentation.md
